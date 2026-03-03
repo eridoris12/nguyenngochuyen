@@ -102,7 +102,7 @@ const Contact = () => {
 
               {/* CTA Button */}
               <a
-                href="cv-nguyenngochuyen.pdf"
+                href="/cv-nguyenngochuyen.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >  
