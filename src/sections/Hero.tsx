@@ -89,7 +89,7 @@ const Hero = () => {
         {/* Right Image */}
         <div className="fade-in w-full lg:w-1/2 order-1 lg:order-2 mb-8 lg:mb-0 lg:pl-12">
           <img 
-            src="/images/hero-portrait.jpg" 
+            src={`${import.meta.env.BASE_URL}images/hero-portrait.jpg`} 
             alt="Nguyen Ngoc Huyen"
             className="w-full max-w-md mx-auto lg:max-w-none lg:w-full lg:h-[70vh] object-cover rounded-xl"
           />

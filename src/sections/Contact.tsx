@@ -109,7 +109,7 @@ const Contact = () => {
             {/* Right Image */}
             <div className="contact-item hidden lg:block">
               <img 
-                src="/images/contact-portrait.jpg" 
+                src={`${import.meta.env.BASE_URL}images/contact-portrait.jpg`} 
                 alt="Contact"
                 className="w-full h-96 object-cover rounded-xl"
               />

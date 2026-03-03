@@ -37,7 +37,7 @@ const CaseStudies = () => {
   const caseStudies = [
     {
       title: 'Giải Trí',
-      image: '/images/case-entertainment.jpg',
+      image: `${import.meta.env.BASE_URL}images/case-entertainment.jpg`,
       goal: 'Tăng trưởng traffic và nâng cao thứ hạng từ khóa có search volume cao.',
       problem: 'Site mới chưa có tín hiệu, cạnh tranh cao trên thị trường, giao diện chưa tối ưu UX/UI.',
       solution: 'Tăng tốc độ tải trang, tối ưu Sitemap & Schema Article + FAQ, lên plan từ khóa theo từng giai đoạn, tạo Author & Social Entity.',
@@ -49,7 +49,7 @@ const CaseStudies = () => {
     },
     {
       title: 'Ecommerce',
-      image: '/images/case-ecommerce.jpg',
+      image: `${import.meta.env.BASE_URL}images/case-ecommerce.jpg`,
       goal: 'Tăng trưởng organic revenue cho cửa hàng đa sản phẩm.',
       problem: 'Nội dung mỏng, cannibalization, trang danh mục chậm.',
       solution: 'Mở rộng nội dung danh mục, sửa navigation, thêm product schema & review markup.',

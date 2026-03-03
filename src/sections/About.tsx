@@ -79,7 +79,7 @@ const About = () => {
             {/* Left - Image & Bio */}
             <div>
               <img 
-                src="/images/about-portrait.jpg" 
+                src={`${import.meta.env.BASE_URL}images/about-portrait.jpg`} 
                 alt="About"
                 className="reveal w-full h-80 object-cover rounded-xl mb-6"
               />
