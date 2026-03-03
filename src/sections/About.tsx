@@ -1,3 +1,4 @@
+import aboutPortrait from '../assets/images/about-portrait.jpg'
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -79,7 +80,7 @@ const About = () => {
             {/* Left - Image & Bio */}
             <div>
               <img 
-                src={`${import.meta.env.BASE_URL}images/about-portrait.jpg`} 
+                src={aboutPortrait}
                 alt="About"
                 className="reveal w-full h-80 object-cover rounded-xl mb-6"
               />

@@ -1,3 +1,4 @@
+import contactPortrait from '../assets/images/contact-portrait.jpg'
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -109,7 +110,7 @@ const Contact = () => {
             {/* Right Image */}
             <div className="contact-item hidden lg:block">
               <img 
-                src={`${import.meta.env.BASE_URL}images/contact-portrait.jpg`} 
+                src={contactPortrait}
                 alt="Contact"
                 className="w-full h-96 object-cover rounded-xl"
               />

@@ -1,3 +1,4 @@
+import heroPortrait from '../assets/images/hero-portrait.jpg'
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { TrendingUp, DollarSign, Search, ArrowRight, Download } from 'lucide-react';
@@ -89,7 +90,7 @@ const Hero = () => {
         {/* Right Image */}
         <div className="fade-in w-full lg:w-1/2 order-1 lg:order-2 mb-8 lg:mb-0 lg:pl-12">
           <img 
-            src={`${import.meta.env.BASE_URL}images/hero-portrait.jpg`} 
+            src={heroPortrait}
             alt="Nguyen Ngoc Huyen"
             className="w-full max-w-md mx-auto lg:max-w-none lg:w-full lg:h-[70vh] object-cover rounded-xl"
           />
