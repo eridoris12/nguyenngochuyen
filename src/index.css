@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 30% 98%;       /* rất nhạt, gần trắng xanh */
+    --foreground: 210 70% 15%;       /* chữ chính, xanh đậm */
+    --card: 210 25% 95%;             /* nền card nhạt hơn nền chính */
+    --card-foreground: 210 70% 15%;  /* chữ trên card */
+    --primary: 210 60% 35%;          /* màu chính cho nút, link, highlights */
+    --primary-foreground: 0 0% 100%; /* chữ trên nút primary, trắng */
+    --secondary: 210 40% 85%;        /* màu phụ cho section, hover, background */
+    --secondary-foreground: 210 70% 15%;
+    --muted: 210 40% 85%;            /* màu muted giống secondary */
+    --muted-foreground: 210 60% 40%; /* chữ muted, xanh nhạt hơn foreground */
+    --accent: 200 70% 60%;           /* màu accent nhẹ, xanh lam tươi */
+    --accent-foreground: 0 0% 100%;  /* chữ trên accent */
+    --border: 210 30% 90%;           /* màu border nhạt */
+    --input: 210 30% 90%;            /* nền input, tương tự border */
+    --ring: 200 70% 60%;             /* outline ring, giống accent */
+    
+    --navy: #0A1E3F;                  /* thay cho navy cũ, xanh đậm hơn */
+    --dusty-rose: #74A9D8;            /* thay hồng bằng xanh lam nhạt */
+    --light-grey: #E8F0FA;            /* light grey kiểu xanh nhạt */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-[#F4F6F8] text-[#0B1A2F] antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

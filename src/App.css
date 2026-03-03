@@ -1,0 +1,53 @@
+/* App-specific styles */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #E6F0FA;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #7AA7D9;
+  border-radius: 3px;
+}
+
+/* Selection color */
+::selection {
+  background: rgba(122, 167, 217, 0.3);
+  color: #0B1E3F;
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 2px solid #7AA7D9;
+  outline-offset: 2px;
+}
+
+/* Button transitions */
+button, a {
+  transition: all 0.2s ease;
+}
+
+/* Card hover effect */
+.shadow-sm {
+  transition: box-shadow 0.2s ease;
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
