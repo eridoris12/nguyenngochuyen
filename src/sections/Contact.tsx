@@ -101,7 +101,17 @@ const Contact = () => {
               </div>
 
               {/* CTA Button */}
-              <button className="contact-item inline-flex items-center gap-2 bg-[#7AA7D9] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#c996a3] transition-colors">
+              <button
+                onClick={() => {
+                  const link = document.createElement("a")
+                  link.href = "/cv-nguyenngochuyen.pdf"
+                  link.download = "cv-nguyenngochuyen.pdf"
+                  document.body.appendChild(link)
+                  link.click()
+                  document.body.removeChild(link)
+                }}
+                className="contact-item inline-flex items-center gap-2 bg-[#7AA7D9] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#c996a3] transition-colors"
+              >
                 <Download className="w-4 h-4" />
                 Download CV PDF
               </button>

@@ -79,6 +79,14 @@ const Hero = () => {
               <ArrowRight className="w-4 h-4" />
             </a>
             <button 
+              onClick={() => {
+                const link = document.createElement("a")
+                link.href = `${import.meta.env.BASE_URL}cv-nguyenngochuyen.pdf`
+                link.download = "cv-nguyenngochuyen.pdf"
+                document.body.appendChild(link)
+                link.click()
+                document.body.removeChild(link)
+              }}
               className="inline-flex items-center gap-2 border border-[#0B1E3F] text-[#0B1E3F] px-6 py-3 rounded-lg font-medium hover:bg-[#0B1E3F] hover:text-white transition-colors"
             >
               <Download className="w-4 h-4" />
