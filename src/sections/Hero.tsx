@@ -78,16 +78,16 @@ const Hero = () => {
               Xem Case Study
               <ArrowRight className="w-4 h-4" />
             </a>
-            <button className="inline-flex items-center gap-2 border border-[#0B1E3F] text-[#0B1E3F] px-6 py-3 rounded-lg font-medium hover:bg-[#0B1E3F] hover:text-white transition-colors" >
-              <a
-                href="/cv-nguyenngochuyen.pdf"
-                download
-                className="contact-item inline-flex items-center gap-2 bg-[#7AA7D9] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#c996a3] transition-colors"
-              >
+            <a
+              href={`${import.meta.env.BASE_URL}cv-nguyenngochuyen.pdf`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="inline-flex items-center gap-2 border border-[#0B1E3F] text-[#0B1E3F] px-6 py-3 rounded-lg font-medium hover:bg-[#0B1E3F] hover:text-white transition-colors" >
                 <Download className="w-4 h-4" />
                 Tải CV
-              </a>
-            </button>
+              </button>
+            </a>
           </div>
         </div>
 

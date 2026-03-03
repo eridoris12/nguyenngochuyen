@@ -101,16 +101,16 @@ const Contact = () => {
               </div>
 
               {/* CTA Button */}
-              <button className="contact-item inline-flex items-center gap-2 bg-[#7AA7D9] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#c996a3] transition-colors">
-                <a
-                href="/cv-nguyenngochuyen.pdf"
-                download
-                className="contact-item inline-flex items-center gap-2 bg-[#7AA7D9] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#c996a3] transition-colors"
-                >
+              <a
+                href={`${import.meta.env.BASE_URL}cv-nguyenngochuyen.pdf`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >  
+                <button className="contact-item inline-flex items-center gap-2 bg-[#7AA7D9] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#c996a3] transition-colors">
                   <Download className="w-4 h-4" />
                   Download CV PDF
-                </a>
-              </button>
+                </button>
+              </a>
             </div>
 
             {/* Right Image */}
