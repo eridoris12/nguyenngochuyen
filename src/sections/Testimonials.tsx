@@ -61,9 +61,9 @@ const Testimonials = () => {
       <div className="px-6 lg:px-[8vw]">
         {/* Header */}
         <div className="text-center mb-12">
-          <p className="text-xs font-medium tracking-widest uppercase text-[#D8A7B1] mb-3">Đánh Giá</p>
+          <p className="text-xs font-medium tracking-widest uppercase text-[#7AA7D9] mb-3">Đánh Giá</p>
           <h2 
-            className="text-3xl lg:text-4xl font-bold text-[#0B1A2F]"
+            className="text-3xl lg:text-4xl font-bold text-[#0B1E3F]"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             Khách Hàng Nói Gì
@@ -75,16 +75,16 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div 
               key={index}
-              className="testimonial-card bg-[#F4F6F8] rounded-xl p-6 relative"
+              className="testimonial-card bg-[#E6F0FA] rounded-xl p-6 relative"
             >
-              <Quote className="w-8 h-8 text-[#D8A7B1]/30 mb-4" />
+              <Quote className="w-8 h-8 text-[#7AA7D9]/30 mb-4" />
               
-              <p className="text-[#0B1A2F] leading-relaxed mb-6">
+              <p className="text-[#0B1E3F] leading-relaxed mb-6">
                 "{testimonial.quote}"
               </p>
 
               <div className="border-t border-[#E5E7EB] pt-4">
-                <p className="font-semibold text-[#0B1A2F]">{testimonial.author}</p>
+                <p className="font-semibold text-[#0B1E3F]">{testimonial.author}</p>
                 <p className="text-sm text-[#6B7280]">{testimonial.company}</p>
               </div>
             </div>

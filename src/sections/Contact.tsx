@@ -45,14 +45,14 @@ const Contact = () => {
     <section 
       ref={sectionRef}
       id="contact" 
-      className="w-full py-20 lg:py-28 bg-[#0B1A2F]"
+      className="w-full py-20 lg:py-28 bg-[#0B1E3F]"
     >
       <div className="px-6 lg:px-[8vw]">
         <div className="max-w-5xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div>
-              <p className="contact-item text-xs font-medium tracking-widest uppercase text-[#D8A7B1] mb-4">
+              <p className="contact-item text-xs font-medium tracking-widest uppercase text-[#7AA7D9] mb-4">
                 Liên Hệ
               </p>
               
@@ -72,12 +72,12 @@ const Contact = () => {
                 {contactInfo.map((info, index) => (
                   <div key={index} className="contact-item flex items-center gap-4">
                     <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
-                      <info.icon className="w-5 h-5 text-[#D8A7B1]" />
+                      <info.icon className="w-5 h-5 text-[#7AA7D9]" />
                     </div>
                     <div>
                       <p className="text-xs text-white/50 uppercase tracking-wider">{info.label}</p>
                       {info.href ? (
-                        <a href={info.href} className="text-white hover:text-[#D8A7B1] transition-colors">
+                        <a href={info.href} className="text-white hover:text-[#7AA7D9] transition-colors">
                           {info.value}
                         </a>
                       ) : (
@@ -101,7 +101,7 @@ const Contact = () => {
               </div>
 
               {/* CTA Button */}
-              <button className="contact-item inline-flex items-center gap-2 bg-[#D8A7B1] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#c996a3] transition-colors">
+              <button className="contact-item inline-flex items-center gap-2 bg-[#7AA7D9] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#c996a3] transition-colors">
                 <Download className="w-4 h-4" />
                 Download CV PDF
               </button>

@@ -67,14 +67,14 @@ const CaseStudies = () => {
     <section 
       ref={sectionRef}
       id="case-studies" 
-      className="w-full py-20 lg:py-28 bg-[#F4F6F8]"
+      className="w-full py-20 lg:py-28 bg-[#E6F0FA]"
     >
       <div className="px-6 lg:px-[8vw]">
         {/* Header */}
         <div className="text-center mb-12">
-          <p className="text-xs font-medium tracking-widest uppercase text-[#D8A7B1] mb-3">Case Studies</p>
+          <p className="text-xs font-medium tracking-widest uppercase text-[#7AA7D9] mb-3">Case Studies</p>
           <h2 
-            className="text-3xl lg:text-4xl font-bold text-[#0B1A2F]"
+            className="text-3xl lg:text-4xl font-bold text-[#0B1E3F]"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             Kết Quả Nổi Bật
@@ -100,7 +100,7 @@ const CaseStudies = () => {
               {/* Content */}
               <div className="p-6">
                 <h3 
-                  className="text-2xl font-bold text-[#0B1A2F] mb-4"
+                  className="text-2xl font-bold text-[#0B1E3F] mb-4"
                   style={{ fontFamily: "'Playfair Display', serif" }}
                 >
                   {study.title}
@@ -108,29 +108,29 @@ const CaseStudies = () => {
 
                 <div className="space-y-3 mb-6">
                   <div>
-                    <span className="text-sm font-medium text-[#0B1A2F]">Mục tiêu: </span>
+                    <span className="text-sm font-medium text-[#0B1E3F]">Mục tiêu: </span>
                     <span className="text-sm text-[#6B7280]">{study.goal}</span>
                   </div>
                   <div>
-                    <span className="text-sm font-medium text-[#0B1A2F]">Thách thức: </span>
+                    <span className="text-sm font-medium text-[#0B1E3F]">Thách thức: </span>
                     <span className="text-sm text-[#6B7280]">{study.problem}</span>
                   </div>
                   <div>
-                    <span className="text-sm font-medium text-[#0B1A2F]">Giải pháp: </span>
+                    <span className="text-sm font-medium text-[#0B1E3F]">Giải pháp: </span>
                     <span className="text-sm text-[#6B7280]">{study.solution}</span>
                   </div>
                 </div>
 
                 {/* Results */}
-                <div className="flex flex-wrap gap-3 pt-4 border-t border-[#F4F6F8]">
+                <div className="flex flex-wrap gap-3 pt-4 border-t border-[#E6F0FA]">
                   {study.results.map((result, rIndex) => (
                     <div 
                       key={rIndex}
-                      className="flex items-center gap-2 bg-[#F4F6F8] rounded-lg px-3 py-2"
+                      className="flex items-center gap-2 bg-[#E6F0FA] rounded-lg px-3 py-2"
                     >
-                      <result.icon className="w-4 h-4 text-[#D8A7B1]" />
+                      <result.icon className="w-4 h-4 text-[#7AA7D9]" />
                       <div>
-                        <p className="text-sm font-bold text-[#0B1A2F]">{result.value}</p>
+                        <p className="text-sm font-bold text-[#0B1E3F]">{result.value}</p>
                         <p className="text-xs text-[#6B7280]">{result.label}</p>
                       </div>
                     </div>

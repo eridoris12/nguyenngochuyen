@@ -43,7 +43,7 @@ const Navigation = () => {
           {/* Logo */}
           <a 
             href="#" 
-            className="text-xl font-bold text-[#0B1A2F]"
+            className="text-xl font-bold text-[#0B1E3F]"
             style={{ fontFamily: "'Playfair Display', serif" }}
             onClick={(e) => {
               e.preventDefault();
@@ -59,7 +59,7 @@ const Navigation = () => {
               <button
                 key={item.label}
                 onClick={() => scrollToSection(item.href)}
-                className="text-sm text-[#0B1A2F] hover:text-[#D8A7B1] transition-colors font-medium"
+                className="text-sm text-[#0B1E3F] hover:text-[#7AA7D9] transition-colors font-medium"
               >
                 {item.label}
               </button>
@@ -72,9 +72,9 @@ const Navigation = () => {
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? (
-              <X className="w-6 h-6 text-[#0B1A2F]" />
+              <X className="w-6 h-6 text-[#0B1E3F]" />
             ) : (
-              <Menu className="w-6 h-6 text-[#0B1A2F]" />
+              <Menu className="w-6 h-6 text-[#0B1E3F]" />
             )}
           </button>
         </div>
@@ -88,7 +88,7 @@ const Navigation = () => {
               <button
                 key={item.label}
                 onClick={() => scrollToSection(item.href)}
-                className="text-2xl text-[#0B1A2F] hover:text-[#D8A7B1] transition-colors font-medium"
+                className="text-2xl text-[#0B1E3F] hover:text-[#7AA7D9] transition-colors font-medium"
                 style={{ fontFamily: "'Playfair Display', serif" }}
               >
                 {item.label}

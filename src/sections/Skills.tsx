@@ -50,16 +50,16 @@ const Skills = () => {
     <section 
       ref={sectionRef}
       id="skills" 
-      className="w-full py-20 lg:py-28 bg-[#F4F6F8]"
+      className="w-full py-20 lg:py-28 bg-[#E6F0FA]"
     >
       <div className="px-6 lg:px-[8vw]">
         <div className="max-w-6xl mx-auto">
           {/* Skills Section */}
           <div className="mb-16">
             <div className="text-center mb-10">
-              <p className="text-xs font-medium tracking-widest uppercase text-[#D8A7B1] mb-3">Kỹ Năng & Công Cụ</p>
+              <p className="text-xs font-medium tracking-widest uppercase text-[#7AA7D9] mb-3">Kỹ Năng & Công Cụ</p>
               <h2 
-                className="text-3xl lg:text-4xl font-bold text-[#0B1A2F]"
+                className="text-3xl lg:text-4xl font-bold text-[#0B1E3F]"
                 style={{ fontFamily: "'Playfair Display', serif" }}
               >
                 Năng Lực
@@ -69,10 +69,10 @@ const Skills = () => {
             <div className="grid md:grid-cols-3 gap-6">
               {/* SEO Skills */}
               <div className="skill-block bg-white rounded-xl p-6 shadow-sm">
-                <h3 className="text-lg font-semibold text-[#0B1A2F] mb-4">SEO Skills</h3>
+                <h3 className="text-lg font-semibold text-[#0B1E3F] mb-4">SEO Skills</h3>
                 <div className="flex flex-wrap gap-2">
                   {skills.seo.map((skill, i) => (
-                    <span key={i} className="text-sm px-3 py-1.5 rounded-lg bg-[#F4F6F8] text-[#0B1A2F]">
+                    <span key={i} className="text-sm px-3 py-1.5 rounded-lg bg-[#E6F0FA] text-[#0B1E3F]">
                       {skill}
                     </span>
                   ))}
@@ -81,10 +81,10 @@ const Skills = () => {
 
               {/* Tools */}
               <div className="skill-block bg-white rounded-xl p-6 shadow-sm">
-                <h3 className="text-lg font-semibold text-[#0B1A2F] mb-4">Tools thành thạo</h3>
+                <h3 className="text-lg font-semibold text-[#0B1E3F] mb-4">Tools thành thạo</h3>
                 <div className="flex flex-wrap gap-2">
                   {skills.tools.map((tool, i) => (
-                    <span key={i} className="text-sm px-3 py-1.5 rounded-lg bg-[#F4F6F8] text-[#0B1A2F]">
+                    <span key={i} className="text-sm px-3 py-1.5 rounded-lg bg-[#E6F0FA] text-[#0B1E3F]">
                       {tool}
                     </span>
                   ))}
@@ -93,10 +93,10 @@ const Skills = () => {
 
               {/* Technical */}
               <div className="skill-block bg-white rounded-xl p-6 shadow-sm">
-                <h3 className="text-lg font-semibold text-[#0B1A2F] mb-4">Technical Skills</h3>
+                <h3 className="text-lg font-semibold text-[#0B1E3F] mb-4">Technical Skills</h3>
                 <div className="flex flex-wrap gap-2">
                   {skills.technical.map((tech, i) => (
-                    <span key={i} className="text-sm px-3 py-1.5 rounded-lg bg-[#F4F6F8] text-[#0B1A2F]">
+                    <span key={i} className="text-sm px-3 py-1.5 rounded-lg bg-[#E6F0FA] text-[#0B1E3F]">
                       {tech}
                     </span>
                   ))}
@@ -108,9 +108,9 @@ const Skills = () => {
           {/* Achievements Section */}
           <div>
             <div className="text-center mb-10">
-              <p className="text-xs font-medium tracking-widest uppercase text-[#D8A7B1] mb-3">Thành Tựu</p>
+              <p className="text-xs font-medium tracking-widest uppercase text-[#7AA7D9] mb-3">Thành Tựu</p>
               <h2 
-                className="text-3xl lg:text-4xl font-bold text-[#0B1A2F]"
+                className="text-3xl lg:text-4xl font-bold text-[#0B1E3F]"
                 style={{ fontFamily: "'Playfair Display', serif" }}
               >
                 Kết Quả Đạt Được
@@ -124,7 +124,7 @@ const Skills = () => {
                   className="skill-block bg-white rounded-xl p-6 text-center shadow-sm"
                 >
                   <p 
-                    className="text-2xl lg:text-3xl font-bold text-[#0B1A2F] mb-1"
+                    className="text-2xl lg:text-3xl font-bold text-[#0B1E3F] mb-1"
                     style={{ fontFamily: "'Playfair Display', serif" }}
                   >
                     {item.value}

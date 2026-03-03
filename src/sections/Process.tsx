@@ -52,9 +52,9 @@ const Process = () => {
       <div className="px-6 lg:px-[8vw]">
         {/* Header */}
         <div className="text-center mb-12">
-          <p className="text-xs font-medium tracking-widest uppercase text-[#D8A7B1] mb-3">Quy Trình</p>
+          <p className="text-xs font-medium tracking-widest uppercase text-[#7AA7D9] mb-3">Quy Trình</p>
           <h2 
-            className="text-3xl lg:text-4xl font-bold text-[#0B1A2F]"
+            className="text-3xl lg:text-4xl font-bold text-[#0B1E3F]"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             SEO Process
@@ -66,16 +66,16 @@ const Process = () => {
           {steps.map((step, index) => (
             <div 
               key={index}
-              className="process-item bg-[#F4F6F8] rounded-xl p-5 hover:shadow-md transition-shadow"
+              className="process-item bg-[#E6F0FA] rounded-xl p-5 hover:shadow-md transition-shadow"
             >
               <div className="flex items-center gap-3 mb-3">
-                <div className="w-10 h-10 rounded-full bg-[#D8A7B1]/20 flex items-center justify-center">
-                  <step.icon className="w-5 h-5 text-[#D8A7B1]" />
+                <div className="w-10 h-10 rounded-full bg-[#7AA7D9]/20 flex items-center justify-center">
+                  <step.icon className="w-5 h-5 text-[#7AA7D9]" />
                 </div>
-                <span className="text-xs font-bold text-[#D8A7B1]">{step.number}</span>
+                <span className="text-xs font-bold text-[#7AA7D9]">{step.number}</span>
               </div>
               <h3 
-                className="text-lg font-bold text-[#0B1A2F] mb-1"
+                className="text-lg font-bold text-[#0B1E3F] mb-1"
                 style={{ fontFamily: "'Playfair Display', serif" }}
               >
                 {step.title}

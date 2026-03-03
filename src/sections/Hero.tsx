@@ -30,13 +30,13 @@ const Hero = () => {
   return (
     <section 
       ref={sectionRef} 
-      className="relative w-full min-h-screen bg-[#F4F6F8] pt-20 lg:pt-0"
+      className="relative w-full min-h-screen bg-[#E6F0FA] pt-20 lg:pt-0"
     >
       <div className="w-full min-h-screen flex flex-col lg:flex-row items-center px-6 lg:px-[8vw] py-12 lg:py-0">
         {/* Left Content */}
         <div className="w-full lg:w-1/2 order-2 lg:order-1">
           <h1 
-            className="fade-in text-4xl lg:text-6xl font-bold text-[#0B1A2F] mb-4"
+            className="fade-in text-4xl lg:text-6xl font-bold text-[#0B1E3F] mb-4"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             NGUYEN NGOC HUYEN
@@ -58,11 +58,11 @@ const Hero = () => {
                 key={index}
                 className="flex items-center gap-3 bg-white rounded-lg px-4 py-3 shadow-sm"
               >
-                <div className="w-10 h-10 rounded-full bg-[#D8A7B1]/20 flex items-center justify-center">
-                  <stat.icon className="w-5 h-5 text-[#D8A7B1]" />
+                <div className="w-10 h-10 rounded-full bg-[#7AA7D9]/20 flex items-center justify-center">
+                  <stat.icon className="w-5 h-5 text-[#7AA7D9]" />
                 </div>
                 <div>
-                  <p className="text-lg font-bold text-[#0B1A2F]">{stat.value}</p>
+                  <p className="text-lg font-bold text-[#0B1E3F]">{stat.value}</p>
                   <p className="text-xs text-[#6B7280]">{stat.label}</p>
                 </div>
               </div>
@@ -73,13 +73,13 @@ const Hero = () => {
           <div className="fade-in flex flex-wrap gap-4">
             <a 
               href="#case-studies"
-              className="inline-flex items-center gap-2 bg-[#D8A7B1] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#c996a3] transition-colors"
+              className="inline-flex items-center gap-2 bg-[#7AA7D9] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#c996a3] transition-colors"
             >
               Xem Case Study
               <ArrowRight className="w-4 h-4" />
             </a>
             <button 
-              className="inline-flex items-center gap-2 border border-[#0B1A2F] text-[#0B1A2F] px-6 py-3 rounded-lg font-medium hover:bg-[#0B1A2F] hover:text-white transition-colors"
+              className="inline-flex items-center gap-2 border border-[#0B1E3F] text-[#0B1E3F] px-6 py-3 rounded-lg font-medium hover:bg-[#0B1E3F] hover:text-white transition-colors"
             >
               <Download className="w-4 h-4" />
               Tải CV

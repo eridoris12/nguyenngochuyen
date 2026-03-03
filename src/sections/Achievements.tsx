@@ -83,7 +83,7 @@ const Achievements = () => {
     <section 
       ref={sectionRef}
       id="achievements" 
-      className="relative w-full py-20 lg:py-28 bg-[#F4F6F8] z-[70]"
+      className="relative w-full py-20 lg:py-28 bg-[#E6F0FA] z-[70]"
     >
       {/* Dot Pattern */}
       <div 
@@ -95,7 +95,7 @@ const Achievements = () => {
         <div ref={headerRef} className="text-center mb-14">
           <p className="label-small mb-4">ACHIEVEMENTS</p>
           <h2 
-            className="text-[clamp(32px,3.6vw,52px)] font-bold text-[#0B1A2F]"
+            className="text-[clamp(32px,3.6vw,52px)] font-bold text-[#0B1E3F]"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             Results That Matter
@@ -113,18 +113,18 @@ const Achievements = () => {
               className="achievement-card bg-white rounded-[10px] p-6 lg:p-8 card-shadow text-center hover:shadow-xl transition-shadow"
             >
               {/* Icon */}
-              <div className="w-14 h-14 rounded-full bg-[#D8A7B1]/20 flex items-center justify-center mx-auto mb-5">
-                <achievement.icon className="w-7 h-7 text-[#D8A7B1]" />
+              <div className="w-14 h-14 rounded-full bg-[#7AA7D9]/20 flex items-center justify-center mx-auto mb-5">
+                <achievement.icon className="w-7 h-7 text-[#7AA7D9]" />
               </div>
 
               {/* Highlight Label */}
-              <p className="text-xs font-medium text-[#D8A7B1] uppercase tracking-wider mb-3">
+              <p className="text-xs font-medium text-[#7AA7D9] uppercase tracking-wider mb-3">
                 {achievement.highlight}
               </p>
 
               {/* Value */}
               <p 
-                className="text-[clamp(32px,4vw,48px)] font-bold text-[#0B1A2F] mb-3"
+                className="text-[clamp(32px,4vw,48px)] font-bold text-[#0B1E3F] mb-3"
                 style={{ fontFamily: "'Playfair Display', serif" }}
               >
                 {achievement.value}
@@ -146,7 +146,7 @@ const Achievements = () => {
             { value: '10+', label: 'Projects Managed' },
           ].map((stat, index) => (
             <div key={index} className="text-center">
-              <p className="text-2xl lg:text-3xl font-bold text-[#0B1A2F]">{stat.value}</p>
+              <p className="text-2xl lg:text-3xl font-bold text-[#0B1E3F]">{stat.value}</p>
               <p className="text-sm text-[#6B7280]">{stat.label}</p>
             </div>
           ))}

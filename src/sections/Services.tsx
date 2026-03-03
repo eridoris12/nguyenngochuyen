@@ -70,9 +70,9 @@ const Services = () => {
       <div className="px-6 lg:px-[8vw]">
         {/* Header */}
         <div className="text-center mb-12">
-          <p className="text-xs font-medium tracking-widest uppercase text-[#D8A7B1] mb-3">Dịch Vụ</p>
+          <p className="text-xs font-medium tracking-widest uppercase text-[#7AA7D9] mb-3">Dịch Vụ</p>
           <h2 
-            className="text-3xl lg:text-4xl font-bold text-[#0B1A2F]"
+            className="text-3xl lg:text-4xl font-bold text-[#0B1E3F]"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             Chuyên Môn CủA Tôi
@@ -84,14 +84,14 @@ const Services = () => {
           {services.map((service, index) => (
             <div 
               key={index}
-              className="service-card bg-[#F4F6F8] rounded-xl p-6 hover:shadow-md transition-shadow"
+              className="service-card bg-[#E6F0FA] rounded-xl p-6 hover:shadow-md transition-shadow"
             >
-              <div className="w-12 h-12 rounded-full bg-[#D8A7B1]/20 flex items-center justify-center mb-4">
-                <service.icon className="w-6 h-6 text-[#D8A7B1]" />
+              <div className="w-12 h-12 rounded-full bg-[#7AA7D9]/20 flex items-center justify-center mb-4">
+                <service.icon className="w-6 h-6 text-[#7AA7D9]" />
               </div>
 
               <h3 
-                className="text-xl font-bold text-[#0B1A2F] mb-2"
+                className="text-xl font-bold text-[#0B1E3F] mb-2"
                 style={{ fontFamily: "'Playfair Display', serif" }}
               >
                 {service.title}
@@ -105,7 +105,7 @@ const Services = () => {
                 {service.items.map((item, itemIndex) => (
                   <span 
                     key={itemIndex}
-                    className="text-xs px-3 py-1 rounded-full bg-white text-[#0B1A2F] font-medium"
+                    className="text-xs px-3 py-1 rounded-full bg-white text-[#0B1E3F] font-medium"
                   >
                     {item}
                   </span>

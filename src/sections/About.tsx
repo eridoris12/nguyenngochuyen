@@ -60,15 +60,15 @@ const About = () => {
     <section 
       ref={sectionRef}
       id="about" 
-      className="w-full py-20 lg:py-28 bg-[#F4F6F8]"
+      className="w-full py-20 lg:py-28 bg-[#E6F0FA]"
     >
       <div className="px-6 lg:px-[8vw]">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="text-center mb-12">
-            <p className="reveal text-xs font-medium tracking-widest uppercase text-[#D8A7B1] mb-3">Về Tôi</p>
+            <p className="reveal text-xs font-medium tracking-widest uppercase text-[#7AA7D9] mb-3">Về Tôi</p>
             <h2 
-              className="reveal text-3xl lg:text-4xl font-bold text-[#0B1A2F]"
+              className="reveal text-3xl lg:text-4xl font-bold text-[#0B1E3F]"
               style={{ fontFamily: "'Playfair Display', serif" }}
             >
               Tôi là ai?
@@ -96,23 +96,23 @@ const About = () => {
 
             {/* Right - Experience */}
             <div>
-              <h3 className="reveal text-xl font-semibold text-[#0B1A2F] mb-6">Hành trình nghề nghiệp</h3>
+              <h3 className="reveal text-xl font-semibold text-[#0B1E3F] mb-6">Hành trình nghề nghiệp</h3>
               <div className="space-y-4">
                 {experiences.map((exp, index) => (
                   <div 
                     key={index}
                     className="reveal flex gap-4 bg-white rounded-xl p-5 shadow-sm"
                   >
-                    <div className="w-10 h-10 rounded-full bg-[#D8A7B1]/20 flex items-center justify-center flex-shrink-0">
-                      <Briefcase className="w-5 h-5 text-[#D8A7B1]" />
+                    <div className="w-10 h-10 rounded-full bg-[#7AA7D9]/20 flex items-center justify-center flex-shrink-0">
+                      <Briefcase className="w-5 h-5 text-[#7AA7D9]" />
                     </div>
                     <div>
                       <div className="flex items-center gap-2 mb-1">
-                        <span className="text-xs font-medium text-[#D8A7B1]">{exp.year}</span>
+                        <span className="text-xs font-medium text-[#7AA7D9]">{exp.year}</span>
                         <span className="text-xs text-[#6B7280]">|</span>
                         <span className="text-xs text-[#6B7280]">{exp.company}</span>
                       </div>
-                      <h4 className="font-semibold text-[#0B1A2F] mb-1">{exp.role}</h4>
+                      <h4 className="font-semibold text-[#0B1E3F] mb-1">{exp.role}</h4>
                       <p className="text-sm text-[#6B7280]">{exp.description}</p>
                     </div>
                   </div>

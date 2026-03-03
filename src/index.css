@@ -34,7 +34,7 @@
   }
   
   body {
-    @apply bg-[#F4F6F8] text-[#0B1A2F] antialiased;
+    @apply bg-[#E6F0FA] text-[#0B1E3F] antialiased;
     font-family: 'Inter', sans-serif;
   }
   
