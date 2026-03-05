@@ -53,7 +53,7 @@ const CaseStudies = () => {
       title: 'Ecommerce',
       image: caseEcommerce,
       goal: 'Tăng trưởng organic revenue cho cửa hàng đa sản phẩm.',
-      problem: 'Nội dung mỏng, cannibalization, trang danh mục chậm.',
+      problem: 'Nội dung mỏng, canonical, trang danh mục chậm.',
       solution: 'Mở rộng nội dung danh mục, sửa navigation, thêm product schema & review markup.',
       results: [
         { icon: TrendingUp, value: '+180%', label: 'Organic Traffic' },
